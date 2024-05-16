@@ -1,0 +1,78 @@
+.gochi-hand-regular {
+    font-family: "Gochi Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body{
+    background-color: #171738;
+    display: flex;
+    text-align : center;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.titlecont{
+    height:4vmin;
+}
+
+.winmsg{
+    font-size: 3vmin;
+    color: #FFD9CE;
+}
+
+.wcont{
+    height:3vmin
+}
+
+.hide{
+    display: none;
+}
+
+.heading{
+    font-size: 7vmin;-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+    color: #FFD9CE;
+}
+.mainbox{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+.container{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin
+}
+#box{
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 10%;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3); 
+    font-size: 8.5vmin;
+    background-color: #FEF9EF;
+    color:red;
+}
+
+.ubtn{
+    padding:1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #FFD9CE;
+    color: #000000;
+}
